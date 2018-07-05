@@ -1,0 +1,99 @@
+body {
+  padding: 0;
+  color: white;
+  margin: 0;
+  background-attachment: fixed;
+}
+
+header {
+  position: relative;
+}
+
+.content {
+  border-top: 10vh solid black;
+  border-left: 10vw solid black;
+  border-right: 10vw solid black;
+  border-bottom: 10vw solid black;
+  width: 80vw;
+  opacity: 0.9;
+  z-index: 2;
+  position: relative;
+}
+
+video {
+  position: fixed;
+  top: 0;
+height: 100%;
+  z-index: 0;
+}
+
+.partII {
+  position: relative;
+  z-index: 5;
+  height: 2000px;
+  width: 100vw;
+  opacity: 0.9;
+  background-color: white;
+  display: inline-block;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  margin-left: 10vw;
+  margin-top: 30px;
+  font-family: helvetica;
+  color: black;
+  font-weight: bolder;
+  font-size: 30px;
+  opacity: 0.6;
+  list-style: none;
+}
+
+li:hover {
+  opacity: 1;
+}
+
+h1 {
+  margin-left: 10vw;
+  margin-top: 80px;
+  font-family: helvetica;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  font-size: 12px;
+  color: black;
+}
+
+.articles {
+  width: 100%;
+}
+
+.article1 {
+  width: 150px;
+  height: 40px;
+  margin-top: 100px;
+  margin-left: 100px;
+  background: black;
+  display: inline-block;
+}
+
+
+.article2 {
+  width: 300px;
+  height: 300px;
+  margin-top: 100px;
+  margin-left: 10vw;
+  background-color: white;
+  display: inline-block;
+}
+
+.article3 {
+  width: 300px;
+  height: 300px;
+  margin-top: 100px;
+  margin-left: 10vw;
+  background-color: white;
+  display: inline-block;
+}
